@@ -1,4 +1,6 @@
-let soma = 0;
+//###-------------------------------Prática 1
+
+/* let soma = 0;
 let aux = 1;
 
 const solicitaNumeros = () =>{
@@ -12,6 +14,16 @@ const solicitaNumeros = () =>{
 if (soma === 0){
     solicitaNumeros();
 }
-console.log(soma);
+console.log(soma); */
 
+//###-------------------------------Prática 2
 
+let num = prompt(`Digite um número: `);
+
+const contador = (cont) => {
+    for (let x = 0; x <= cont; x++){
+    console.log(x);
+    }
+}
+
+contador(num);
